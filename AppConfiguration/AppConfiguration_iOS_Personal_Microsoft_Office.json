@@ -1,0 +1,29 @@
+{
+  "@odata.type": "#microsoft.graph.iosMobileAppConfiguration",
+  "createdDateTime": "2021-04-02T09:15:53.191584Z",
+  "description": "",
+  "displayName": "AppConfiguration_iOS_Personal_Microsoft_Office",
+  "encodedSettingXml": null,
+  "id": "3850ab92-4486-4c78-9849-2deff0edf21b",
+  "lastModifiedDateTime": "2021-04-07T14:46:23.7711746Z",
+  "roleScopeTagIds": [
+    "0"
+  ],
+  "settings": [
+    {
+      "appConfigKey": "IntuneMAMUPN",
+      "appConfigKeyType": "stringType",
+      "appConfigKeyValue": "{{UserPrincipalName}}"
+    },
+    {
+      "appConfigKey": "IntuneMAMAllowedAccountsOnly",
+      "appConfigKeyType": "stringType",
+      "appConfigKeyValue": "Enabled"
+    }
+  ],
+  "targetedMobileApps": [
+    "fb87304e-2148-4e11-a61a-ace56acced0b"
+  ],
+  "version": 4,
+  "bundleID": "com.microsoft.officemobile"
+}

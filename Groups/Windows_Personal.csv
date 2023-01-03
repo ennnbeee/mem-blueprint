@@ -1,0 +1,2 @@
+﻿DisplayName,Description,MembershipRule
+SG_MDM_Devices_Windows_Personal_All,All Windows 10 Personal devices enrolled in Microsoft Endpoint Manager,(device.deviceOSType -eq "Windows") and (device.deviceOwnership -eq "Personal") and (device.managementType -eq "MDM")

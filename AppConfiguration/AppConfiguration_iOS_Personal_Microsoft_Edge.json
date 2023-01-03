@@ -1,0 +1,24 @@
+{
+    "@odata.type":  "#microsoft.graph.iosMobileAppConfiguration",
+    "createdDateTime":  "2022-09-16T09:25:29.0508316Z",
+    "description":  "",
+    "displayName":  "AppConfiguration_iOS_Personal_Microsoft_Edge",
+    "encodedSettingXml":  null,
+    "id":  "d53adcf2-368b-4610-b398-15e077fb3e78",
+    "lastModifiedDateTime":  "2022-09-16T09:25:29.0508316Z",
+    "roleScopeTagIds":  [
+                            "0"
+                        ],
+    "settings":  [
+                     {
+                         "appConfigKey":  "IntuneMAMUPN",
+                         "appConfigKeyType":  "stringType",
+                         "appConfigKeyValue":  "{{UserPrincipalName}}"
+                     }
+                 ],
+    "targetedMobileApps":  [
+                               "6cc2f452-61e9-41ea-9f91-fd74c9e21012"
+                           ],
+    "version":  1,
+    "bundleID":  "com.microsoft.msedge"
+}

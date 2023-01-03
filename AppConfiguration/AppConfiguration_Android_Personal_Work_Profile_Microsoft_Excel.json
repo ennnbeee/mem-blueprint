@@ -1,0 +1,23 @@
+{
+    "@odata.type":  "#microsoft.graph.androidManagedStoreAppConfiguration",
+    "appSupportsOemConfig":  false,
+    "connectedAppsEnabled":  false,
+    "createdDateTime":  "2022-05-17T07:19:19.3843539Z",
+    "description":  "",
+    "displayName":  "AppConfiguration_Android_Personal_Work_Profile_Microsoft_Excel",
+    "id":  "d2e13169-d8b6-4464-bb8a-55ccc7520ed2",
+    "lastModifiedDateTime":  "2022-05-17T07:19:19.3843539Z",
+    "packageId":  "app:com.microsoft.office.excel",
+    "payloadJson":  "eyJraW5kIjoiYW5kcm9pZGVudGVycHJpc2UjbWFuYWdlZENvbmZpZ3VyYXRpb24iLCJwcm9kdWN0SWQiOiJhcHA6Y29tLm1pY3Jvc29mdC5vZmZpY2UuZXhjZWwiLCJtYW5hZ2VkUHJvcGVydHkiOlt7ImtleSI6ImNvbS5taWNyb3NvZnQuaW50dW5lLm1hbS5BbGxvd2VkQWNjb3VudFVQTnMiLCJ2YWx1ZVN0cmluZyI6Int7dXNlcnByaW5jaXBhbG5hbWV9fSJ9XX0=",
+    "permissionActions":  [
+
+                          ],
+    "profileApplicability":  "androidWorkProfile",
+    "roleScopeTagIds":  [
+                            "0"
+                        ],
+    "targetedMobileApps":  [
+                               "acc8bb48-c5dd-4caf-b259-07f23b948c1c"
+                           ],
+    "version":  1
+}

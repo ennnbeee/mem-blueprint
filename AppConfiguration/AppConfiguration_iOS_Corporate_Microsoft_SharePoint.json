@@ -1,0 +1,29 @@
+{
+  "@odata.type": "#microsoft.graph.iosMobileAppConfiguration",
+  "createdDateTime": "2021-04-02T09:17:55.8278019Z",
+  "description": "",
+  "displayName": "AppConfiguration_iOS_Corporate_Microsoft_SharePoint",
+  "encodedSettingXml": null,
+  "id": "661fc6d3-3c55-445b-a749-185fbc9e6146",
+  "lastModifiedDateTime": "2021-04-13T10:36:22.8396192Z",
+  "roleScopeTagIds": [
+    "0"
+  ],
+  "settings": [
+    {
+      "appConfigKey": "IntuneMAMUPN",
+      "appConfigKeyType": "stringType",
+      "appConfigKeyValue": "{{UserPrincipalName}}"
+    },
+    {
+      "appConfigKey": "IntuneMAMAllowedAccountsOnly",
+      "appConfigKeyType": "stringType",
+      "appConfigKeyValue": "Enabled"
+    }
+  ],
+  "targetedMobileApps": [
+    "15bbb62e-81ec-44ad-bfcd-40ed70c27800"
+  ],
+  "version": 4,
+  "bundleID": "com.microsoft.sharepoint"
+}

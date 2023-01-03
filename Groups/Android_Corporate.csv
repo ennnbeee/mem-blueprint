@@ -1,0 +1,5 @@
+﻿DisplayName,Description,MembershipRule
+SG_MAM_Users_All,All Mobile App Management Users,(user.accountEnabled -eq True) and (user.assignedPlans -any (assignedPlan.servicePlanId -eq "c1ec4a95-1f05-45b3-a911-aa3fa01094f5" -and assignedPlan.capabilityStatus -eq "Enabled"))
+SG_MAM_Users_POC,All Proof-of-Concept Mobile App Management Users
+SG_MDM_Users_All,All Mobile Device Management Users,(user.accountEnabled -eq True) and (user.assignedPlans -any (assignedPlan.servicePlanId -eq "c1ec4a95-1f05-45b3-a911-aa3fa01094f5" -and assignedPlan.capabilityStatus -eq "Enabled"))
+SG_MDM_Devices_Android_Corporate_Fully_Managed_All,All Android Corporate devices enrolled with Android Fully Managed profile,(device.deviceOSType -eq "AndroidEnterprise") -and (device.enrollmentProfileName -eq null) and (device.deviceOwnership -eq "Company")

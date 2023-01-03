@@ -1,0 +1,29 @@
+{
+  "@odata.type": "#microsoft.graph.iosMobileAppConfiguration",
+  "createdDateTime": "2022-11-06T22:02:34.0473214Z",
+  "description": "",
+  "displayName": "AppConfiguration_iOS_Corporate_Microsoft_Word",
+  "encodedSettingXml": null,
+  "id": "a8a4249f-e702-4f04-8442-d87cca2330d7",
+  "lastModifiedDateTime": "2022-11-06T22:02:34.0473214Z",
+  "roleScopeTagIds": [
+    "0"
+  ],
+  "settings": [
+    {
+      "appConfigKey": "IntuneMAMUPN",
+      "appConfigKeyType": "stringType",
+      "appConfigKeyValue": "{{UserPrincipalName}}"
+    },
+    {
+      "appConfigKey": "IntuneMAMAllowedAccountsOnly",
+      "appConfigKeyType": "stringType",
+      "appConfigKeyValue": "Enabled"
+    }
+  ],
+  "targetedMobileApps": [
+    "9cee0bcd-97c6-4880-8757-0f5da6807359"
+  ],
+  "version": 1,
+  "bundleID": "com.microsoft.Office.Word"
+}

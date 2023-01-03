@@ -1,0 +1,23 @@
+{
+    "@odata.type":  "#microsoft.graph.androidManagedStoreAppConfiguration",
+    "appSupportsOemConfig":  false,
+    "connectedAppsEnabled":  false,
+    "createdDateTime":  "2022-05-17T07:22:52.9253537Z",
+    "description":  "",
+    "displayName":  "AppConfiguration_Android_Personal_Work_Profile_Microsoft_SharePoint",
+    "id":  "8d9cd5f5-43d9-42bf-80d9-ea9c9d5eedc1",
+    "lastModifiedDateTime":  "2022-05-17T07:22:52.9253537Z",
+    "packageId":  "app:com.microsoft.sharepoint",
+    "payloadJson":  "eyJraW5kIjoiYW5kcm9pZGVudGVycHJpc2UjbWFuYWdlZENvbmZpZ3VyYXRpb24iLCJwcm9kdWN0SWQiOiJhcHA6Y29tLm1pY3Jvc29mdC5zaGFyZXBvaW50IiwibWFuYWdlZFByb3BlcnR5IjpbeyJrZXkiOiJjb20ubWljcm9zb2Z0LmludHVuZS5tYW0uQWxsb3dlZEFjY291bnRVUE5zIiwidmFsdWVTdHJpbmciOiJ7e3VzZXJwcmluY2lwYWxuYW1lfX0ifV19",
+    "permissionActions":  [
+
+                          ],
+    "profileApplicability":  "androidWorkProfile",
+    "roleScopeTagIds":  [
+                            "0"
+                        ],
+    "targetedMobileApps":  [
+                               "3f75af5a-1826-41df-a5a6-98f53b173eef"
+                           ],
+    "version":  1
+}

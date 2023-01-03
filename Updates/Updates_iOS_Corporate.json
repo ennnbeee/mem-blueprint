@@ -1,0 +1,33 @@
+{
+    "@odata.type":  "#microsoft.graph.iosUpdateConfiguration",
+    "id":  "4c324433-9baf-4a45-a9cc-27f9df8e64ae",
+    "lastModifiedDateTime":  "2022-04-22T06:46:44.8328991Z",
+    "roleScopeTagIds":  [
+                            "0"
+                        ],
+    "supportsScopeTags":  true,
+    "deviceManagementApplicabilityRuleOsEdition":  null,
+    "deviceManagementApplicabilityRuleOsVersion":  null,
+    "deviceManagementApplicabilityRuleDeviceMode":  null,
+    "createdDateTime":  "2022-04-22T06:46:29.9056436Z",
+    "description":  "",
+    "displayName":  "Updates_iOS_Corporate_Automatic",
+    "version":  2,
+    "isEnabled":  false,
+    "activeHoursStart":  "00:00:00.0000000",
+    "activeHoursEnd":  "00:00:00.0000000",
+    "desiredOsVersion":  null,
+    "scheduledInstallDays":  [
+
+                             ],
+    "utcTimeOffsetInMinutes":  null,
+    "enforcedSoftwareUpdateDelayInDays":  null,
+    "updateScheduleType":  "alwaysUpdate",
+    "customUpdateTimeWindows":  [
+
+                                ],
+    "groupAssignments@odata.context":  "https://graph.microsoft.com/beta/$metadata#deviceManagement/deviceConfigurations(\u00274c324433-9baf-4a45-a9cc-27f9df8e64ae\u0027)/microsoft.graph.iosUpdateConfiguration/groupAssignments",
+    "groupAssignments":  [
+
+                         ]
+}

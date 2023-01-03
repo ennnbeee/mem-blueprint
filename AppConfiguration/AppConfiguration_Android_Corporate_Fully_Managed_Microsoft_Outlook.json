@@ -1,0 +1,46 @@
+{
+    "@odata.type":  "#microsoft.graph.androidManagedStoreAppConfiguration",
+    "appSupportsOemConfig":  false,
+    "connectedAppsEnabled":  false,
+    "createdDateTime":  "2022-05-04T15:30:00.8316077Z",
+    "description":  "",
+    "displayName":  "AppConfiguration_Android_Corporate_Fully_Managed_Microsoft_Outlook",
+    "id":  "0e7c2c85-4957-4b16-ad89-011b553d2340",
+    "lastModifiedDateTime":  "2022-05-06T09:01:27.3647931Z",
+    "packageId":  "app:com.microsoft.office.outlook",
+    "payloadJson":  "eyJraW5kIjoiYW5kcm9pZGVudGVycHJpc2UjbWFuYWdlZENvbmZpZ3VyYXRpb24iLCJwcm9kdWN0SWQiOiJhcHA6Y29tLm1pY3Jvc29mdC5vZmZpY2Uub3V0bG9vayIsIm1hbmFnZWRQcm9wZXJ0eSI6W3sia2V5IjoiY29tLm1pY3Jvc29mdC5pbnR1bmUubWFtLkFsbG93ZWRBY2NvdW50VVBOcyIsInZhbHVlU3RyaW5nIjoie3t1c2VycHJpbmNpcGFsbmFtZX19In0seyJrZXkiOiJjb20ubWljcm9zb2Z0Lm91dGxvb2suRW1haWxQcm9maWxlLkFjY291bnRUeXBlIiwidmFsdWVTdHJpbmciOiJNb2Rlcm5BdXRoIn0seyJrZXkiOiJjb20ubWljcm9zb2Z0Lm91dGxvb2suRW1haWxQcm9maWxlLkVtYWlsVVBOIiwidmFsdWVTdHJpbmciOiJ7e3VzZXJwcmluY2lwYWxuYW1lfX0ifSx7ImtleSI6ImNvbS5taWNyb3NvZnQub3V0bG9vay5FbWFpbFByb2ZpbGUuRW1haWxBZGRyZXNzIiwidmFsdWVTdHJpbmciOiJ7e21haWx9fSJ9LHsia2V5IjoiSW50dW5lTUFNQWxsb3dlZEFjY291bnRzT25seSIsInZhbHVlU3RyaW5nIjoiRW5hYmxlZCJ9LHsia2V5IjoiY29tLm1pY3Jvc29mdC5vdXRsb29rLkNvbnRhY3RzLkxvY2FsU3luY0VuYWJsZWQiLCJ2YWx1ZUJvb2wiOnRydWV9LHsia2V5IjoiY29tLm1pY3Jvc29mdC5vdXRsb29rLkNhbGVuZGFyLk5hdGl2ZVN5bmNFbmFibGVkIiwidmFsdWVCb29sIjpmYWxzZX0seyJrZXkiOiJjb20ubWljcm9zb2Z0Lm91dGxvb2suQ29udGFjdHMuTG9jYWxTeW5jRW5hYmxlZC5Vc2VyQ2hhbmdlQWxsb3dlZCIsInZhbHVlQm9vbCI6ZmFsc2V9LHsia2V5IjoiY29tLm1pY3Jvc29mdC5vdXRsb29rLkNhbGVuZGFyLk5hdGl2ZVN5bmNFbmFibGVkLlVzZXJDaGFuZ2VBbGxvd2VkIiwidmFsdWVCb29sIjpmYWxzZX0seyJrZXkiOiJjb20ubWljcm9zb2Z0Lm91dGxvb2suTWFpbC5Gb2N1c2VkSW5ib3giLCJ2YWx1ZUJvb2wiOmZhbHNlfSx7ImtleSI6ImNvbS5taWNyb3NvZnQub3V0bG9vay5NYWlsLkRlZmF1bHRTaWduYXR1cmVFbmFibGVkIiwidmFsdWVCb29sIjpmYWxzZX1dfQ==",
+    "permissionActions":  [
+                              {
+                                  "permission":  "android.permission.READ_PHONE_STATE",
+                                  "action":  "autoGrant"
+                              },
+                              {
+                                  "permission":  "android.permission.CALL_PHONE",
+                                  "action":  "autoGrant"
+                              },
+                              {
+                                  "permission":  "android.permission.READ_CALENDAR",
+                                  "action":  "autoGrant"
+                              },
+                              {
+                                  "permission":  "android.permission.WRITE_CALENDAR",
+                                  "action":  "autoGrant"
+                              },
+                              {
+                                  "permission":  "android.permission.READ_CONTACTS",
+                                  "action":  "autoGrant"
+                              },
+                              {
+                                  "permission":  "android.permission.WRITE_CONTACTS",
+                                  "action":  "autoGrant"
+                              }
+                          ],
+    "profileApplicability":  "androidDeviceOwner",
+    "roleScopeTagIds":  [
+                            "0"
+                        ],
+    "targetedMobileApps":  [
+                               "9bda3b3d-aacd-4d3c-90d2-537eb345da6d"
+                           ],
+    "version":  9
+}

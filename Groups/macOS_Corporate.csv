@@ -1,0 +1,2 @@
+﻿DisplayName,Description,MembershipRule
+SG_MDM_Devices_macOS_Corporate_All,All corporate macOS devices enrolled in Microsoft Endpoint Manager,(device.deviceOSType -eq "macMDM") and (device.deviceOwnership -eq "Company")

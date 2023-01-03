@@ -1,0 +1,24 @@
+{
+    "@odata.type":  "#microsoft.graph.iosMobileAppConfiguration",
+    "createdDateTime":  "2022-09-16T09:26:20.5044736Z",
+    "description":  "",
+    "displayName":  "AppConfiguration_iOS_Corporate_Microsoft_OneDrive",
+    "encodedSettingXml":  null,
+    "id":  "fee56785-b7b2-4fec-8e36-6018b16528e3",
+    "lastModifiedDateTime":  "2022-09-16T09:26:20.5044736Z",
+    "roleScopeTagIds":  [
+                            "0"
+                        ],
+    "settings":  [
+                     {
+                         "appConfigKey":  "IntuneMAMUPN",
+                         "appConfigKeyType":  "stringType",
+                         "appConfigKeyValue":  "{{userprincipalname}}"
+                     }
+                 ],
+    "targetedMobileApps":  [
+                               "b36b1b79-3cc5-4bd0-82df-2c795d4e7d3b"
+                           ],
+    "version":  1,
+    "bundleID":  "com.microsoft.skydrive"
+}

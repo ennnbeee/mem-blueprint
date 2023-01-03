@@ -1,0 +1,23 @@
+{
+    "@odata.type":  "#microsoft.graph.androidManagedStoreAppConfiguration",
+    "appSupportsOemConfig":  false,
+    "connectedAppsEnabled":  false,
+    "createdDateTime":  "2022-05-05T11:02:38.0728567Z",
+    "description":  "",
+    "displayName":  "AppConfiguration_Android_Corporate_Fully_Managed_Microsoft_PowerPoint",
+    "id":  "bedbb20b-e09e-4e10-a7ef-dc9b06ee10a4",
+    "lastModifiedDateTime":  "2022-05-05T11:12:00.2560056Z",
+    "packageId":  "app:com.microsoft.office.powerpoint",
+    "payloadJson":  "eyJraW5kIjoiYW5kcm9pZGVudGVycHJpc2UjbWFuYWdlZENvbmZpZ3VyYXRpb24iLCJwcm9kdWN0SWQiOiJhcHA6Y29tLm1pY3Jvc29mdC5vZmZpY2UucG93ZXJwb2ludCIsIm1hbmFnZWRQcm9wZXJ0eSI6W3sia2V5IjoiY29tLm1pY3Jvc29mdC5pbnR1bmUubWFtLkFsbG93ZWRBY2NvdW50VVBOcyIsInZhbHVlU3RyaW5nIjoie3tVc2VyUHJpbmNpcGFsTmFtZX19In1dfQ==",
+    "permissionActions":  [
+
+                          ],
+    "profileApplicability":  "androidDeviceOwner",
+    "roleScopeTagIds":  [
+                            "0"
+                        ],
+    "targetedMobileApps":  [
+                               "220db1d5-a62e-402f-a43f-abc6a9b876e2"
+                           ],
+    "version":  2
+}

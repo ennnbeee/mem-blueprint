@@ -1,0 +1,23 @@
+{
+    "@odata.type":  "#microsoft.graph.androidManagedStoreAppConfiguration",
+    "appSupportsOemConfig":  false,
+    "connectedAppsEnabled":  false,
+    "createdDateTime":  "2022-05-17T07:23:48.1527391Z",
+    "description":  "",
+    "displayName":  "AppConfiguration_Android_Personal_Work_Profile_Microsoft_Word",
+    "id":  "11e082d7-50e2-4cfa-a7cf-26a764d990c0",
+    "lastModifiedDateTime":  "2022-05-17T07:23:48.1527391Z",
+    "packageId":  "app:com.microsoft.office.word",
+    "payloadJson":  "eyJraW5kIjoiYW5kcm9pZGVudGVycHJpc2UjbWFuYWdlZENvbmZpZ3VyYXRpb24iLCJwcm9kdWN0SWQiOiJhcHA6Y29tLm1pY3Jvc29mdC5vZmZpY2Uud29yZCIsIm1hbmFnZWRQcm9wZXJ0eSI6W3sia2V5IjoiY29tLm1pY3Jvc29mdC5pbnR1bmUubWFtLkFsbG93ZWRBY2NvdW50VVBOcyIsInZhbHVlU3RyaW5nIjoie3t1c2VycHJpbmNpcGFsbmFtZX19In1dfQ==",
+    "permissionActions":  [
+
+                          ],
+    "profileApplicability":  "androidWorkProfile",
+    "roleScopeTagIds":  [
+                            "0"
+                        ],
+    "targetedMobileApps":  [
+                               "4884edfb-c2fe-403c-8be8-e6891fb2c8f1"
+                           ],
+    "version":  1
+}

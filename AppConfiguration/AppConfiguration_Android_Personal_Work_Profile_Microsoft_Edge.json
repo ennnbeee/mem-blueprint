@@ -1,0 +1,23 @@
+{
+    "@odata.type":  "#microsoft.graph.androidManagedStoreAppConfiguration",
+    "appSupportsOemConfig":  false,
+    "connectedAppsEnabled":  false,
+    "createdDateTime":  "2022-05-17T07:18:33.1718417Z",
+    "description":  "",
+    "displayName":  "AppConfiguration_Android_Personal_Work_Profile_Microsoft_Edge",
+    "id":  "78748286-fcf1-4267-bd93-92a1cc9f1737",
+    "lastModifiedDateTime":  "2022-05-17T07:18:33.1718417Z",
+    "packageId":  "app:com.microsoft.emmx",
+    "payloadJson":  "eyJraW5kIjoiYW5kcm9pZGVudGVycHJpc2UjbWFuYWdlZENvbmZpZ3VyYXRpb24iLCJwcm9kdWN0SWQiOiJhcHA6Y29tLm1pY3Jvc29mdC5lbW14IiwibWFuYWdlZFByb3BlcnR5IjpbeyJrZXkiOiJjb20ubWljcm9zb2Z0LmludHVuZS5tYW0uQWxsb3dlZEFjY291bnRVUE5zIiwidmFsdWVTdHJpbmciOiJ7e3VzZXJwcmluY2lwYWxuYW1lfX0ifV19",
+    "permissionActions":  [
+
+                          ],
+    "profileApplicability":  "androidWorkProfile",
+    "roleScopeTagIds":  [
+                            "0"
+                        ],
+    "targetedMobileApps":  [
+                               "67423324-e66d-4d17-b52c-dfc3060bd168"
+                           ],
+    "version":  1
+}

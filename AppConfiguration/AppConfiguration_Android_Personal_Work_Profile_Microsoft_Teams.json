@@ -1,0 +1,23 @@
+{
+    "@odata.type":  "#microsoft.graph.androidManagedStoreAppConfiguration",
+    "appSupportsOemConfig":  false,
+    "connectedAppsEnabled":  false,
+    "createdDateTime":  "2022-05-17T07:23:22.2369292Z",
+    "description":  "",
+    "displayName":  "AppConfiguration_Android_Personal_Work_Profile_Microsoft_Teams",
+    "id":  "1d190e80-2c3f-4115-b962-e12277018042",
+    "lastModifiedDateTime":  "2022-05-17T07:23:22.2369292Z",
+    "packageId":  "app:com.microsoft.teams",
+    "payloadJson":  "eyJraW5kIjoiYW5kcm9pZGVudGVycHJpc2UjbWFuYWdlZENvbmZpZ3VyYXRpb24iLCJwcm9kdWN0SWQiOiJhcHA6Y29tLm1pY3Jvc29mdC50ZWFtcyIsIm1hbmFnZWRQcm9wZXJ0eSI6W3sia2V5IjoiY29tLm1pY3Jvc29mdC5pbnR1bmUubWFtLkFsbG93ZWRBY2NvdW50VVBOcyIsInZhbHVlU3RyaW5nIjoie3t1c2VycHJpbmNpcGFsbmFtZX19In1dfQ==",
+    "permissionActions":  [
+
+                          ],
+    "profileApplicability":  "androidWorkProfile",
+    "roleScopeTagIds":  [
+                            "0"
+                        ],
+    "targetedMobileApps":  [
+                               "8b8e9350-5a1d-49ef-ac47-5e35ce14c0da"
+                           ],
+    "version":  1
+}

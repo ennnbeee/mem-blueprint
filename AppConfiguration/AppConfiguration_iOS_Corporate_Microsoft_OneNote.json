@@ -1,0 +1,29 @@
+{
+  "@odata.type": "#microsoft.graph.iosMobileAppConfiguration",
+  "createdDateTime": "2021-04-07T14:49:49.9144929Z",
+  "description": "",
+  "displayName": "AppConfiguration_iOS_Corporate_Microsoft_OneNote",
+  "encodedSettingXml": null,
+  "id": "b4d80ae3-f2ca-4192-971f-52050c1e7e35",
+  "lastModifiedDateTime": "2021-04-13T10:38:12.1716679Z",
+  "roleScopeTagIds": [
+    "0"
+  ],
+  "settings": [
+    {
+      "appConfigKey": "IntuneMAMUPN",
+      "appConfigKeyType": "stringType",
+      "appConfigKeyValue": "{{UserPrincipalName}}"
+    },
+    {
+      "appConfigKey": "IntuneMAMAllowedAccountsOnly",
+      "appConfigKeyType": "stringType",
+      "appConfigKeyValue": "Enabled"
+    }
+  ],
+  "targetedMobileApps": [
+    "19899b04-656a-40e8-aef4-47cd305107f0"
+  ],
+  "version": 3,
+  "bundleID": "com.microsoft.onenote"
+}

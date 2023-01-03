@@ -1,0 +1,30 @@
+{
+    "@odata.type":  "#microsoft.graph.androidManagedStoreAppConfiguration",
+    "appSupportsOemConfig":  false,
+    "connectedAppsEnabled":  false,
+    "createdDateTime":  "2022-05-05T11:01:47.4179015Z",
+    "description":  "",
+    "displayName":  "AppConfiguration_Android_Corporate_Fully_Managed_Microsoft_OneNote",
+    "id":  "9008698b-ea4e-4a8d-90af-da184fc58039",
+    "lastModifiedDateTime":  "2022-05-06T11:11:50.1377722Z",
+    "packageId":  "app:com.microsoft.office.onenote",
+    "payloadJson":  "eyJraW5kIjoiYW5kcm9pZGVudGVycHJpc2UjbWFuYWdlZENvbmZpZ3VyYXRpb24iLCJwcm9kdWN0SWQiOiJhcHA6Y29tLm1pY3Jvc29mdC5vZmZpY2Uub25lbm90ZSIsIm1hbmFnZWRQcm9wZXJ0eSI6W3sia2V5IjoiY29tLm1pY3Jvc29mdC5pbnR1bmUubWFtLkFsbG93ZWRBY2NvdW50VVBOcyIsInZhbHVlU3RyaW5nIjoie3tVc2VyUHJpbmNpcGFsTmFtZX19In1dfQ==",
+    "permissionActions":  [
+                              {
+                                  "permission":  "android.permission.READ_CONTACTS",
+                                  "action":  "autoGrant"
+                              },
+                              {
+                                  "permission":  "android.permission.WRITE_CONTACTS",
+                                  "action":  "autoGrant"
+                              }
+                          ],
+    "profileApplicability":  "androidDeviceOwner",
+    "roleScopeTagIds":  [
+                            "0"
+                        ],
+    "targetedMobileApps":  [
+                               "17de979b-700e-41b3-a382-630159cb7bce"
+                           ],
+    "version":  3
+}

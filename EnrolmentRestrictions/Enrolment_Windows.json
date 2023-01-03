@@ -1,0 +1,23 @@
+{
+  "@odata.type": "#microsoft.graph.deviceEnrollmentPlatformRestrictionConfiguration",
+  "id": "72312504-8d80-4e7c-86fb-61b510ae259a_SinglePlatformRestriction",
+  "displayName": "Enrolment_Windows_Personal",
+  "description": "Cyber Essentials enrolment restrictions",
+  "priority": 1,
+  "createdDateTime": "2022-11-04T18:22:43.9067535Z",
+  "lastModifiedDateTime": "2022-11-04T18:22:43.9067535Z",
+  "version": 1,
+  "roleScopeTagIds": [
+    "0"
+  ],
+  "deviceEnrollmentConfigurationType": "singlePlatformRestriction",
+  "platformType": "windows",
+  "platformRestriction": {
+    "platformBlocked": false,
+    "personalDeviceEnrollmentBlocked": false,
+    "osMinimumVersion": "10.0.19043",
+    "osMaximumVersion": null,
+    "blockedManufacturers": [],
+    "blockedSkus": []
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "@odata.type": "#microsoft.graph.iosMobileAppConfiguration",
+  "createdDateTime": "2022-11-06T22:00:10.9593578Z",
+  "description": "",
+  "displayName": "AppConfiguration_iOS_Personal_Microsoft_Excel",
+  "encodedSettingXml": null,
+  "id": "4005590c-4463-4e3d-82ac-1a7dbc5cfebf",
+  "lastModifiedDateTime": "2022-11-06T22:00:10.9593578Z",
+  "roleScopeTagIds": [
+    "0"
+  ],
+  "settings": [
+    {
+      "appConfigKey": "IntuneMAMUPN",
+      "appConfigKeyType": "stringType",
+      "appConfigKeyValue": "{{UserPrincipalName}}"
+    },
+    {
+      "appConfigKey": "IntuneMAMAllowedAccountsOnly",
+      "appConfigKeyType": "stringType",
+      "appConfigKeyValue": "Enabled"
+    }
+  ],
+  "targetedMobileApps": [
+    "f8f14d9f-4f23-4a19-98c6-f5dfa3b43990"
+  ],
+  "version": 1,
+  "bundleID": "com.microsoft.Office.Excel"
+}

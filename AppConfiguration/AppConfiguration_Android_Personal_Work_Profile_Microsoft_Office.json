@@ -1,0 +1,21 @@
+{
+  "@odata.type": "#microsoft.graph.androidManagedStoreAppConfiguration",
+  "appSupportsOemConfig": false,
+  "connectedAppsEnabled": false,
+  "createdDateTime": "2022-11-06T22:13:31.721203Z",
+  "description": "",
+  "displayName": "AppConfiguration_Android_Personal_Work_Profile_Microsoft_Office",
+  "id": "3c82d280-d71f-4cef-97d9-b30e5e7f75bb",
+  "lastModifiedDateTime": "2022-11-06T22:13:31.721203Z",
+  "packageId": "app:com.microsoft.office.officehubrow",
+  "payloadJson": "eyJraW5kIjoiYW5kcm9pZGVudGVycHJpc2UjbWFuYWdlZENvbmZpZ3VyYXRpb24iLCJwcm9kdWN0SWQiOiJhcHA6Y29tLm1pY3Jvc29mdC5vZmZpY2Uub2ZmaWNlaHVicm93IiwibWFuYWdlZFByb3BlcnR5IjpbeyJrZXkiOiJjb20ubWljcm9zb2Z0LmludHVuZS5tYW0uQWxsb3dlZEFjY291bnRVUE5zIiwidmFsdWVTdHJpbmciOiJ7e1VzZXJQcmluY2lwYWxOYW1lfX0ifV19",
+  "permissionActions": [],
+  "profileApplicability": "androidWorkProfile",
+  "roleScopeTagIds": [
+    "0"
+  ],
+  "targetedMobileApps": [
+    "247a4d1b-839b-4d40-bf77-163e7339cd13"
+  ],
+  "version": 1
+}

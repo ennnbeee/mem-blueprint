@@ -1,0 +1,44 @@
+{
+    "@odata.type":  "#microsoft.graph.iosMobileAppConfiguration",
+    "createdDateTime":  "2022-09-16T09:26:59.9040163Z",
+    "description":  "",
+    "displayName":  "AppConfiguration_iOS_Personal_Microsoft_Outlook",
+    "encodedSettingXml":  null,
+    "id":  "56373331-c6a5-4fcd-b7b4-57db01c9e1db",
+    "lastModifiedDateTime":  "2022-09-16T09:26:59.9040163Z",
+    "roleScopeTagIds":  [
+                            "0"
+                        ],
+    "settings":  [
+                     {
+                         "appConfigKey":  "com.microsoft.outlook.EmailProfile.AccountType",
+                         "appConfigKeyType":  "stringType",
+                         "appConfigKeyValue":  "ModernAuth"
+                     },
+                     {
+                         "appConfigKey":  "com.microsoft.outlook.EmailProfile.EmailUPN",
+                         "appConfigKeyType":  "stringType",
+                         "appConfigKeyValue":  "{{userprincipalname}}"
+                     },
+                     {
+                         "appConfigKey":  "com.microsoft.outlook.EmailProfile.EmailAddress",
+                         "appConfigKeyType":  "stringType",
+                         "appConfigKeyValue":  "{{mail}}"
+                     },
+                     {
+                         "appConfigKey":  "IntuneMAMAllowedAccountsOnly",
+                         "appConfigKeyType":  "stringType",
+                         "appConfigKeyValue":  "Enabled"
+                     },
+                     {
+                         "appConfigKey":  "IntuneMAMUPN",
+                         "appConfigKeyType":  "stringType",
+                         "appConfigKeyValue":  "{{userprincipalname}}"
+                     }
+                 ],
+    "targetedMobileApps":  [
+                               "7be0abdd-b62b-4229-817a-31768d218c2a"
+                           ],
+    "version":  1,
+    "bundleID":  "com.microsoft.Office.Outlook"
+}

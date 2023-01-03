@@ -1,0 +1,29 @@
+{
+  "@odata.type": "#microsoft.graph.iosMobileAppConfiguration",
+  "createdDateTime": "2022-11-06T22:01:27.3878995Z",
+  "description": "",
+  "displayName": "AppConfiguration_iOS_Personal_Microsoft_PowerPoint",
+  "encodedSettingXml": null,
+  "id": "9f3ab158-8ab6-4f26-9ae9-e6302990508d",
+  "lastModifiedDateTime": "2022-11-06T22:01:41.7519539Z",
+  "roleScopeTagIds": [
+    "0"
+  ],
+  "settings": [
+    {
+      "appConfigKey": "IntuneMAMUPN",
+      "appConfigKeyType": "stringType",
+      "appConfigKeyValue": "{{UserPrincipalName}}"
+    },
+    {
+      "appConfigKey": "IntuneMAMAllowedAccountsOnly",
+      "appConfigKeyType": "stringType",
+      "appConfigKeyValue": "Enabled"
+    }
+  ],
+  "targetedMobileApps": [
+    "35b1f265-4b8e-4792-a17a-203b4316353b"
+  ],
+  "version": 2,
+  "bundleID": "com.microsoft.Office.Powerpoint"
+}
