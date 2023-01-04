@@ -11,7 +11,7 @@
   "deviceManagementApplicabilityRuleDeviceMode": null,
   "createdDateTime": "2022-11-03T12:04:07.8223442Z",
   "description": null,
-  "displayName": "Configuration_macOS_Corporate_Gatekeeper",
+  "displayName": "Configuration_macOS_Corporate_CE_Gatekeeper",
   "version": 1,
   "gatekeeperAllowedAppSource": "macAppStoreAndIdentifiedDevelopers",
   "gatekeeperBlockOverride": true,

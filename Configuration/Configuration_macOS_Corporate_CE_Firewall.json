@@ -11,7 +11,7 @@
   "deviceManagementApplicabilityRuleDeviceMode": null,
   "createdDateTime": "2022-11-06T21:11:03.6594284Z",
   "description": null,
-  "displayName": "Configuration_macOS_Corporate_Firewall",
+  "displayName": "Configuration_macOS_Corporate_CE_Firewall",
   "version": 1,
   "gatekeeperAllowedAppSource": "notConfigured",
   "gatekeeperBlockOverride": false,
