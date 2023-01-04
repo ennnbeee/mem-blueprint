@@ -12,7 +12,18 @@
         "groupSettingCollectionValue": [
           {
             "settingValueTemplateReference": null,
-            "children": ""
+            "children": [
+              {
+                "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+                "settingDefinitionId": "com.apple.mcx_disableguestaccount",
+                "settingInstanceTemplateReference": null,
+                "choiceSettingValue": {
+                  "settingValueTemplateReference": null,
+                  "value": "com.apple.mcx_disableguestaccount_true",
+                  "children": []
+                }
+              }
+            ]
           }
         ]
       }

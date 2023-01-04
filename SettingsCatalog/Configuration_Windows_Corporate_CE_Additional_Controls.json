@@ -13,7 +13,16 @@
           "settingValueTemplateReference": null,
           "value": "device_vendor_msft_policy_config_autoplay_turnoffautoplay_1",
           "children": [
-            "@{@odata.type=#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance; settingDefinitionId=device_vendor_msft_policy_config_autoplay_turnoffautoplay_autorun_box; settingInstanceTemplateReference=; choiceSettingValue=}"
+            {
+              "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+              "settingDefinitionId": "device_vendor_msft_policy_config_autoplay_turnoffautoplay_autorun_box",
+              "settingInstanceTemplateReference": null,
+              "choiceSettingValue": {
+                "settingValueTemplateReference": null,
+                "value": "device_vendor_msft_policy_config_autoplay_turnoffautoplay_autorun_box_255",
+                "children": []
+              }
+            }
           ]
         }
       }
