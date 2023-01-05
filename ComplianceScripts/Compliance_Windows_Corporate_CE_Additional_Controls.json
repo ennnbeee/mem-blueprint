@@ -1,0 +1,74 @@
+{
+    "Rules":[
+       {
+          "SettingName":"User Account is a Standard User",
+          "Operator":"IsEquals",
+          "DataType":"String",
+          "Operand":"Yes",
+          "MoreInfoUrl":"https://bing.com",
+          "RemediationStrings":[
+             {
+                "Language":"en_US",
+                "Title":"The logged on user is a Local Administrator, the user must not have Administrator permissions.",
+                "Description":"User account must not be a Local Administrator."
+             }
+          ]
+       },
+       {
+          "SettingName":"Guest Account Disabled",
+          "Operator":"IsEquals",
+          "DataType":"String",
+          "Operand":"Yes",
+          "MoreInfoUrl":"https://bing.com",
+          "RemediationStrings":[
+             {
+                "Language":"en_US",
+                "Title":"There are enabled Guest accounts, these must be disabled.",
+                "Description":"Guest accounts must be disabled."
+             }
+          ]
+       },
+       {
+          "SettingName":"Autoplay Disabled",
+          "Operator":"IsEquals",
+          "DataType":"String",
+          "Operand":"Yes",
+          "MoreInfoUrl":"https://bing.com",
+          "RemediationStrings":[
+             {
+                "Language":"en_US",
+                "Title":"Autoplay is enabled for one or more media types.",
+                "Description":"Autoplay must be disabled for all media types."
+             }
+          ]
+       },
+       {
+          "SettingName":"Real time protection enabled",
+          "Operator":"IsEquals",
+          "DataType":"String",
+          "Operand":"On",
+          "MoreInfoUrl":"https://www.google.com",
+          "RemediationStrings":[
+             {
+                "Language":"en_US",
+                "Title":"Real time protection is not enabled",
+                "Description":"Real time protection must be enabled."
+             }
+          ]
+       },
+       {
+          "SettingName":"Definitions up-to-date",
+          "Operator":"IsEquals",
+          "DataType":"String",
+          "Operand":"Up to Date",
+          "MoreInfoUrl":"https://www.google.com",
+          "RemediationStrings":[
+             {
+                "Language":"en_US",
+                "Title":"Antivirus definitions are not up to date.",
+                "Description":"Please update the Antivirus definitions."
+             }
+          ]
+       }
+    ]
+ }
