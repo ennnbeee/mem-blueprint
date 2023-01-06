@@ -6,7 +6,8 @@ $admingroup = [ADSI] 'WinNT://./Administrators,group'
 $adminmembers = @($admingroup.psbase.Invoke('Members'))
 $AdminList = ($adminmembers | ForEach-Object { $_.GetType().InvokeMember('Name', 'GetProperty', $null, $_, $null) })
 
-$Users = Get-Process -Name explorer -IncludeUserName | Select-Object UserName -Unique
+#$Users = Get-Process -Name explorer -IncludeUserName | Select-Object UserName -Unique
+$Users = Get-WmiObject -Class Win32_ComputerSystem | Select-Object UserName
 Foreach ($User in $Users) {
     $User = $User.UserName
     $UserName = $User.Split('\')[1]
