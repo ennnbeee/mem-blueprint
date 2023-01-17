@@ -1,0 +1,56 @@
+{
+    "@odata.type":  "#microsoft.graph.windows10CompliancePolicy",
+    "roleScopeTagIds":  [
+                            "0"
+                        ],
+    "id":  "8bfbcc62-df85-4534-bf28-8145029ccf3e",
+    "createdDateTime":  "2022-03-21T16:38:17.9350403Z",
+    "description":  null,
+    "lastModifiedDateTime":  "2022-04-20T11:26:01.1839667Z",
+    "displayName":  "Compliance_Windows_Corporate_BitLocker_Encryption",
+    "version":  6,
+    "passwordRequired":  false,
+    "passwordBlockSimple":  false,
+    "passwordRequiredToUnlockFromIdle":  false,
+    "passwordMinutesOfInactivityBeforeLock":  null,
+    "passwordExpirationDays":  null,
+    "passwordMinimumLength":  null,
+    "passwordMinimumCharacterSetCount":  null,
+    "passwordRequiredType":  "deviceDefault",
+    "passwordPreviousPasswordBlockCount":  null,
+    "requireHealthyDeviceReport":  false,
+    "osMinimumVersion":  null,
+    "osMaximumVersion":  null,
+    "mobileOsMinimumVersion":  null,
+    "mobileOsMaximumVersion":  null,
+    "earlyLaunchAntiMalwareDriverEnabled":  false,
+    "bitLockerEnabled":  true,
+    "secureBootEnabled":  false,
+    "codeIntegrityEnabled":  false,
+    "storageRequireEncryption":  true,
+    "activeFirewallRequired":  false,
+    "defenderEnabled":  false,
+    "defenderVersion":  null,
+    "signatureOutOfDate":  false,
+    "rtpEnabled":  false,
+    "antivirusRequired":  false,
+    "antiSpywareRequired":  false,
+    "deviceThreatProtectionEnabled":  false,
+    "deviceThreatProtectionRequiredSecurityLevel":  "unavailable",
+    "configurationManagerComplianceRequired":  false,
+    "tpmRequired":  true,
+    "deviceCompliancePolicyScript":  null,
+    "validOperatingSystemBuildRanges": [],
+    "scheduledActionsForRule": [
+      {
+        "ruleName": "blockAction",
+        "scheduledActionConfigurations": [
+          {
+            "actionType": "block",
+            "gracePeriodHours": 168,
+            "notificationTemplateId": ""
+          }
+        ]
+      }
+    ]
+  }

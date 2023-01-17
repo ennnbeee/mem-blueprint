@@ -1,0 +1,79 @@
+{
+    "@odata.type":  "#microsoft.graph.windowsUpdateForBusinessConfiguration",
+    "id":  "2e2921ee-529e-42ea-9c8f-aee4b7bd8d12",
+    "lastModifiedDateTime":  "2022-04-08T08:28:28.2934363Z",
+    "roleScopeTagIds":  [
+                            "0"
+                        ],
+    "supportsScopeTags":  true,
+    "deviceManagementApplicabilityRuleOsEdition":  null,
+    "deviceManagementApplicabilityRuleOsVersion":  null,
+    "deviceManagementApplicabilityRuleDeviceMode":  null,
+    "createdDateTime":  "2022-03-21T17:20:54.7131819Z",
+    "description":  "",
+    "displayName":  "Updates_Windows_Corporate_Phase_1_Pilot",
+    "version":  9,
+    "deliveryOptimizationMode":  "userDefined",
+    "prereleaseFeatures":  "userDefined",
+    "automaticUpdateMode":  "autoInstallAtMaintenanceTime",
+    "microsoftUpdateServiceAllowed":  true,
+    "driversExcluded":  false,
+    "qualityUpdatesDeferralPeriodInDays":  0,
+    "featureUpdatesDeferralPeriodInDays":  30,
+    "qualityUpdatesPaused":  false,
+    "featureUpdatesPaused":  false,
+    "qualityUpdatesPauseExpiryDateTime":  "0001-01-01T00:00:00Z",
+    "featureUpdatesPauseExpiryDateTime":  "0001-01-01T00:00:00Z",
+    "businessReadyUpdatesOnly":  "userDefined",
+    "skipChecksBeforeRestart":  false,
+    "updateWeeks":  null,
+    "qualityUpdatesPauseStartDate":  null,
+    "featureUpdatesPauseStartDate":  null,
+    "featureUpdatesRollbackWindowInDays":  30,
+    "qualityUpdatesWillBeRolledBack":  false,
+    "featureUpdatesWillBeRolledBack":  false,
+    "qualityUpdatesRollbackStartDateTime":  "0001-01-01T00:00:00Z",
+    "featureUpdatesRollbackStartDateTime":  "0001-01-01T00:00:00Z",
+    "engagedRestartDeadlineInDays":  null,
+    "engagedRestartSnoozeScheduleInDays":  null,
+    "engagedRestartTransitionScheduleInDays":  null,
+    "deadlineForFeatureUpdatesInDays":  14,
+    "deadlineForQualityUpdatesInDays":  3,
+    "deadlineGracePeriodInDays":  2,
+    "postponeRebootUntilAfterDeadline":  true,
+    "autoRestartNotificationDismissal":  "notConfigured",
+    "scheduleRestartWarningInHours":  null,
+    "scheduleImminentRestartWarningInMinutes":  null,
+    "userPauseAccess":  "disabled",
+    "userWindowsUpdateScanAccess":  "enabled",
+    "updateNotificationLevel":  "defaultNotifications",
+    "allowWindows11Upgrade":  false,
+    "installationSchedule":  {
+                                 "@odata.type":  "#microsoft.graph.windowsUpdateActiveHoursInstall",
+                                 "activeHoursStart":  "08:00:00.0000000",
+                                 "activeHoursEnd":  "18:00:00.0000000"
+                             },
+    "groupAssignments@odata.context":  "https://graph.microsoft.com/beta/$metadata#deviceManagement/deviceConfigurations(\u00272e2921ee-529e-42ea-9c8f-aee4b7bd8d12\u0027)/microsoft.graph.windowsUpdateForBusinessConfiguration/groupAssignments",
+    "groupAssignments":  [
+                             {
+                                 "id":  "2e2921ee-529e-42ea-9c8f-aee4b7bd8d12_5234a48a-868a-4525-9e05-bfd59afbaa71",
+                                 "targetGroupId":  "5234a48a-868a-4525-9e05-bfd59afbaa71",
+                                 "excludeGroup":  false
+                             },
+                             {
+                                 "id":  "2e2921ee-529e-42ea-9c8f-aee4b7bd8d12_71425b97-7d76-47e2-993e-55558e2a50ae",
+                                 "targetGroupId":  "71425b97-7d76-47e2-993e-55558e2a50ae",
+                                 "excludeGroup":  true
+                             },
+                             {
+                                 "id":  "2e2921ee-529e-42ea-9c8f-aee4b7bd8d12_8c2ee1fa-a5d3-47f6-922a-e64aa5063b45",
+                                 "targetGroupId":  "8c2ee1fa-a5d3-47f6-922a-e64aa5063b45",
+                                 "excludeGroup":  true
+                             },
+                             {
+                                 "id":  "2e2921ee-529e-42ea-9c8f-aee4b7bd8d12_ca1a39a4-a485-48a2-81a0-821667d82054",
+                                 "targetGroupId":  "ca1a39a4-a485-48a2-81a0-821667d82054",
+                                 "excludeGroup":  true
+                             }
+                         ]
+}
