@@ -1,0 +1,23 @@
+{
+  "@odata.type": "#microsoft.graph.deviceEnrollmentPlatformRestrictionConfiguration",
+  "id": "507c2139-7e6e-43bd-bfff-acbf23322c46_SinglePlatformRestriction",
+  "displayName": "Enrolment_macOS_Corporate",
+  "description": "",
+  "priority": 1,
+  "createdDateTime": "2022-11-04T18:23:01.3388387Z",
+  "lastModifiedDateTime": "2022-11-04T18:23:01.3388387Z",
+  "version": 1,
+  "roleScopeTagIds": [
+    "0"
+  ],
+  "deviceEnrollmentConfigurationType": "singlePlatformRestriction",
+  "platformType": "mac",
+  "platformRestriction": {
+    "platformBlocked": false,
+    "personalDeviceEnrollmentBlocked": true,
+    "osMinimumVersion": null,
+    "osMaximumVersion": null,
+    "blockedManufacturers": [],
+    "blockedSkus": []
+  }
+}

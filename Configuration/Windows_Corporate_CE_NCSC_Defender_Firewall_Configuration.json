@@ -11,7 +11,7 @@
   "deviceManagementApplicabilityRuleDeviceMode": null,
   "createdDateTime": "2022-11-06T21:11:58.9639443Z",
   "description": null,
-  "displayName": "Configuration_Windows_Corporate_CE_Defender_Firewall",
+  "displayName": "Configuration_Windows_Corporate_Defender_Firewall",
   "version": 1,
   "dmaGuardDeviceEnumerationPolicy": "deviceDefault",
   "userRightsAccessCredentialManagerAsTrustedCaller": null,
