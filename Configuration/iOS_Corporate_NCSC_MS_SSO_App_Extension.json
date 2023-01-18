@@ -1,0 +1,59 @@
+{
+    "@odata.type":  "#microsoft.graph.iosDeviceFeaturesConfiguration",
+    "id":  "b33adc93-f619-4218-b600-7c6b1d0c219c",
+    "lastModifiedDateTime":  "2022-05-09T13:43:32.6377485Z",
+    "roleScopeTagIds":  [
+                            "0"
+                        ],
+    "supportsScopeTags":  true,
+    "deviceManagementApplicabilityRuleOsEdition":  null,
+    "deviceManagementApplicabilityRuleOsVersion":  null,
+    "deviceManagementApplicabilityRuleDeviceMode":  null,
+    "createdDateTime":  "2022-05-09T13:43:32.6377485Z",
+    "description":  null,
+    "displayName":  "Configuration_iOS_Corporate_SSO_App_Extension",
+    "version":  1,
+    "assetTagTemplate":  null,
+    "contentFilterSettings":  null,
+    "lockScreenFootnote":  null,
+    "homeScreenGridWidth":  null,
+    "homeScreenGridHeight":  null,
+    "singleSignOnSettings":  null,
+    "wallpaperDisplayLocation":  "notConfigured",
+    "wallpaperImage":  null,
+    "singleSignOnExtension":  null,
+    "airPrintDestinations":  [
+
+                             ],
+    "homeScreenDockIcons":  [
+
+                            ],
+    "homeScreenPages":  [
+
+                        ],
+    "notificationSettings":  [
+
+                             ],
+    "iosSingleSignOnExtension":  {
+                                     "@odata.type":  "#microsoft.graph.iosRedirectSingleSignOnExtension",
+                                     "extensionIdentifier":  "com.microsoft.azureauthenticator.ssoextension",
+                                     "teamIdentifier":  null,
+                                     "urlPrefixes":  [
+                                                         "https://login.microsoftonline.com",
+                                                         "https://login.microsoft.com",
+                                                         "https://sts.windows.net"
+                                                     ],
+                                     "configurations":  [
+                                                            {
+                                                                "@odata.type":  "#microsoft.graph.keyIntegerValuePair",
+                                                                "key":  "browser_sso_interaction_enabled",
+                                                                "value":  1
+                                                            },
+                                                            {
+                                                                "@odata.type":  "#microsoft.graph.keyIntegerValuePair",
+                                                                "key":  "disable_explicit_app_prompt",
+                                                                "value":  1
+                                                            }
+                                                        ]
+                                 }
+}

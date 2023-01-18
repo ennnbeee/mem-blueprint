@@ -1,0 +1,49 @@
+{
+    "@odata.type":  "#microsoft.graph.iosDeviceFeaturesConfiguration",
+    "id":  "cfe5c642-f67a-42ce-b358-187829e7e688",
+    "lastModifiedDateTime":  "2022-04-21T17:19:32.797082Z",
+    "roleScopeTagIds":  [
+                            "0"
+                        ],
+    "supportsScopeTags":  true,
+    "deviceManagementApplicabilityRuleOsEdition":  null,
+    "deviceManagementApplicabilityRuleOsVersion":  null,
+    "deviceManagementApplicabilityRuleDeviceMode":  null,
+    "createdDateTime":  "2022-04-21T17:19:32.797082Z",
+    "description":  null,
+    "displayName":  "Configuration_iOS_Corporate_NCSC_App_Notifications",
+    "version":  1,
+    "assetTagTemplate":  null,
+    "contentFilterSettings":  null,
+    "lockScreenFootnote":  null,
+    "homeScreenGridWidth":  null,
+    "homeScreenGridHeight":  null,
+    "singleSignOnSettings":  null,
+    "wallpaperDisplayLocation":  "notConfigured",
+    "wallpaperImage":  null,
+    "singleSignOnExtension":  null,
+    "iosSingleSignOnExtension":  null,
+    "airPrintDestinations":  [
+
+                             ],
+    "homeScreenDockIcons":  [
+
+                            ],
+    "homeScreenPages":  [
+
+                        ],
+    "notificationSettings":  [
+                                 {
+                                     "bundleID":  "com.apple.MobileSMS",
+                                     "appName":  "Mobile SMS",
+                                     "publisher":  "Apple",
+                                     "enabled":  true,
+                                     "showInNotificationCenter":  false,
+                                     "showOnLockScreen":  null,
+                                     "alertType":  "banner",
+                                     "badgesEnabled":  null,
+                                     "soundsEnabled":  null,
+                                     "previewVisibility":  "hideWhenLocked"
+                                 }
+                             ]
+}

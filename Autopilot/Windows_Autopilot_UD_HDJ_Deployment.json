@@ -1,0 +1,27 @@
+{
+    "@odata.type":  "#microsoft.graph.activeDirectoryWindowsAutopilotDeploymentProfile",
+    "id":  "516bb462-be1c-4b9c-ba75-85ce1475073f",
+    "displayName":  "Deployment_Windows_Autopilot_UD_HDJ",
+    "description":  "",
+    "language":  "os-default",
+    "createdDateTime":  "2022-05-20T08:29:46.7144328Z",
+    "lastModifiedDateTime":  "2022-05-20T08:29:46.7144328Z",
+    "enrollmentStatusScreenSettings":  null,
+    "extractHardwareHash":  false,
+    "deviceNameTemplate":  "",
+    "deviceType":  "windowsPc",
+    "enableWhiteGlove":  false,
+    "roleScopeTagIds":  [
+                            "0"
+                        ],
+    "managementServiceAppId":  null,
+    "hybridAzureADJoinSkipConnectivityCheck":  true,
+    "outOfBoxExperienceSettings":  {
+                                       "hidePrivacySettings":  true,
+                                       "hideEULA":  true,
+                                       "userType":  "standard",
+                                       "deviceUsageType":  "singleUser",
+                                       "skipKeyboardSelectionPage":  false,
+                                       "hideEscapeLink":  true
+                                   }
+}

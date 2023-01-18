@@ -1,0 +1,67 @@
+{
+  "displayName": "Security_macOS_Corporate_FileVault_Encryption",
+  "description": "",
+  "roleScopeTagIds": [
+    "0"
+  ],
+  "TemplateDisplayName": "FileVault",
+  "TemplateId": "a239407c-698d-4ef8-b314-e3ae409204b8",
+  "versionInfo": "2007",
+  "settingsDelta": [
+    {
+      "@odata.type": "#microsoft.graph.deviceManagementCollectionSettingInstance",
+      "id": "e650ce3d-baa9-4aac-a558-44dd300b7390",
+      "definitionId": "deviceConfiguration--macOSEndpointProtectionConfiguration_fileVaultSelectedRecoveryKeyTypes",
+      "valueJson": "[\"personalRecoveryKey\"]"
+    },
+    {
+      "@odata.type": "#microsoft.graph.deviceManagementIntegerSettingInstance",
+      "id": "6a7fd89c-0d06-471a-89fd-25b65ccb619b",
+      "definitionId": "deviceConfiguration--macOSEndpointProtectionConfiguration_fileVaultNumberOfTimesUserCanIgnore",
+      "valueJson": "0",
+      "value": 0
+    },
+    {
+      "@odata.type": "#microsoft.graph.deviceManagementIntegerSettingInstance",
+      "id": "74ad607e-9969-4ee0-a04f-3566d56f72ad",
+      "definitionId": "deviceConfiguration--macOSEndpointProtectionConfiguration_fileVaultPersonalRecoveryKeyRotationInMonths",
+      "valueJson": "1",
+      "value": 1
+    },
+    {
+      "@odata.type": "#microsoft.graph.deviceManagementBooleanSettingInstance",
+      "id": "09232af4-2a05-453a-9b5b-1a856b6c6ae4",
+      "definitionId": "deviceConfiguration--macOSEndpointProtectionConfiguration_fileVaultEnabled",
+      "valueJson": "true",
+      "value": true
+    },
+    {
+      "@odata.type": "#microsoft.graph.deviceManagementStringSettingInstance",
+      "id": "b1400ae1-8519-4d79-afa3-1a41472a003a",
+      "definitionId": "deviceConfiguration--macOSEndpointProtectionConfiguration_fileVaultPersonalRecoveryKeyHelpMessage",
+      "valueJson": "\"Location message\"",
+      "value": "Location message"
+    },
+    {
+      "@odata.type": "#microsoft.graph.deviceManagementBooleanSettingInstance",
+      "id": "f83f62e7-8e08-4547-8b58-1b6f782c9624",
+      "definitionId": "deviceConfiguration--macOSEndpointProtectionConfiguration_fileVaultAllowDeferralUntilSignOut",
+      "valueJson": "true",
+      "value": true
+    },
+    {
+      "@odata.type": "#microsoft.graph.deviceManagementBooleanSettingInstance",
+      "id": "4da5d4a6-f882-4a70-a65f-fbe492610a87",
+      "definitionId": "deviceConfiguration--macOSEndpointProtectionConfiguration_fileVaultDisablePromptAtSignOut",
+      "valueJson": "false",
+      "value": false
+    },
+    {
+      "@odata.type": "#microsoft.graph.deviceManagementBooleanSettingInstance",
+      "id": "0f8069c7-527c-4794-9dcc-906a1a9e64cf",
+      "definitionId": "deviceConfiguration--macOSEndpointProtectionConfiguration_fileVaultHidePersonalRecoveryKey",
+      "valueJson": "true",
+      "value": true
+    }
+  ]
+}

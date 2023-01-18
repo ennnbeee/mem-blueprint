@@ -1,0 +1,28 @@
+{
+    "@odata.type":  "#microsoft.graph.windows10CustomConfiguration",
+    "id":  "0060ba1a-dfd8-4937-b27f-62d8df259c08",
+    "lastModifiedDateTime":  "2022-08-24T09:23:51.443848Z",
+    "roleScopeTagIds":  [
+                            "0"
+                        ],
+    "supportsScopeTags":  true,
+    "deviceManagementApplicabilityRuleOsEdition":  null,
+    "deviceManagementApplicabilityRuleOsVersion":  null,
+    "deviceManagementApplicabilityRuleDeviceMode":  null,
+    "createdDateTime":  "2022-08-24T09:23:26.7625278Z",
+    "description":  "Used for data analytics for Update Readiness - https://docs.microsoft.com/en-us/windows/privacy/configure-windows-diagnostic-data-in-your-organization#enabling-windows-diagnostic-data-processor-configuration",
+    "displayName":  "Configuration_Windows_Corporate_Windows_Diagnostics_Data_Processor",
+    "version":  2,
+    "omaSettings":  [
+                        {
+                            "@odata.type":  "#microsoft.graph.omaSettingInteger",
+                            "displayName":  "System/AllowCommercialDataPipeline",
+                            "description":  null,
+                            "omaUri":  "./Vendor/MSFT/Policy/Config/System/AllowCommercialDataPipeline",
+                            "secretReferenceValueId":  null,
+                            "isEncrypted":  false,
+                            "value":  1,
+                            "isReadOnly":  false
+                        }
+                    ]
+}

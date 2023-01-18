@@ -1,0 +1,26 @@
+{
+    "@odata.type":  "#microsoft.graph.windows10EnrollmentCompletionPageConfiguration",
+    "id":  "04ee8974-18fd-47f1-a05f-57cea9d14b93_Windows10EnrollmentCompletionPageConfiguration",
+    "displayName":  "Enrolment_Status_Page_Windows_Corporate",
+    "description":  "",
+    "priority":  1,
+    "createdDateTime":  "2022-05-20T08:27:23.5615272Z",
+    "lastModifiedDateTime":  "2022-05-20T08:27:55.7041324Z",
+    "version":  2,
+    "roleScopeTagIds":  [
+                            "0"
+                        ],
+    "deviceEnrollmentConfigurationType":  "windows10EnrollmentCompletionPageConfiguration",
+    "showInstallationProgress":  true,
+    "blockDeviceSetupRetryByUser":  false,
+    "allowDeviceResetOnInstallFailure":  true,
+    "allowLogCollectionOnInstallFailure":  false,
+    "customErrorMessage":  "Setup could not be completed. Please try again or contact the Service Desk for assistance.",
+    "installProgressTimeoutInMinutes":  90,
+    "allowDeviceUseOnInstallFailure":  false,
+    "selectedMobileAppIds":  [
+
+                             ],
+    "trackInstallProgressForAutopilotOnly":  true,
+    "disableUserStatusTrackingAfterFirstUser":  true
+}
