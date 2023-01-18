@@ -1,0 +1,23 @@
+{
+  "@odata.type": "#microsoft.graph.deviceEnrollmentPlatformRestrictionConfiguration",
+  "id": "aac1a337-3a84-4c1e-b63f-e594f3f2f8c9_SinglePlatformRestriction",
+  "displayName": "Enrolment_Android_Enterprise_Corporate",
+  "description": "",
+  "priority": 2,
+  "createdDateTime": "2022-11-04T18:20:58.5744992Z",
+  "lastModifiedDateTime": "2022-11-04T18:20:58.5744992Z",
+  "version": 1,
+  "roleScopeTagIds": [
+    "0"
+  ],
+  "deviceEnrollmentConfigurationType": "singlePlatformRestriction",
+  "platformType": "androidForWork",
+  "platformRestriction": {
+    "platformBlocked": false,
+    "personalDeviceEnrollmentBlocked": true,
+    "osMinimumVersion": "11.0",
+    "osMaximumVersion": null,
+    "blockedManufacturers": [],
+    "blockedSkus": []
+  }
+}
